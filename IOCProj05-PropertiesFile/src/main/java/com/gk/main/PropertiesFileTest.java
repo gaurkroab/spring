@@ -11,7 +11,7 @@ public class PropertiesFileTest {
 		
 		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("com/gk/cfgs/applicationContext.xml");
 		
-		// get Spring bean class obj
+		// get Spring bean class object
 		
 		PersonInfo info = ctx.getBean("pinfo",PersonInfo.class);
 		System.out.println(info);
